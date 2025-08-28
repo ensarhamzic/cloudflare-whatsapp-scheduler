@@ -5,7 +5,7 @@ compatibility_flags = ["nodejs_compat"]
 
 [triggers]
 # svakih 10 minuta
-crons = ["*/10 * * * *"]
+crons = ["*/30 * * * *"]
 
 [vars]
 SENDER_BASE_URL = "https://whatsapp-message-sender-blond.vercel.app"
