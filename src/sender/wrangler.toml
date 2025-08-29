@@ -4,7 +4,7 @@ compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 
 [triggers]
-crons = ["* * * * *"]
+crons = ["*/10 * * * *"] 
 
 [vars]
 SENDER_BASE_URL = "https://whatsapp-message-sender-ony3.onrender.com"
