@@ -8,3 +8,6 @@ crons = ["*/5 * * * *"]
 
 [vars]
 PINGER_BASE_URL = "https://go-whatsapp-web-multidevice-v7-5-0.onrender.com/"
+
+[observability.logs]
+enabled = true
