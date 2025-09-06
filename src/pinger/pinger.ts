@@ -10,8 +10,7 @@ function basicAuth(user: string, pass: string) {
 
 export default {
   async scheduled(_ctl: ScheduledController, env: Env): Promise<void> {
-    const url =
-      (env.PINGER_BASE_URL ?? "").replace(/\/$/, "") + "/app/reconnect";
+    const url = (env.PINGER_BASE_URL ?? "").replace(/\/$/, "");
     if (!env.PINGER_BASIC_USER || !env.PINGER_BASIC_PASS || !url) {
       throw new Error(
         "Missing env: PINGER_BASE_URL, PINGER_BASIC_USER, PINGER_BASIC_PASS"

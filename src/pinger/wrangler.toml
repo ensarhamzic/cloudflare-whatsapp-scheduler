@@ -4,7 +4,7 @@ compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
 
 [triggers]
-crons = ["*/4 * * * *"]
+crons = ["*/5 * * * *"]
 
 [vars]
 PINGER_BASE_URL = "https://go-whatsapp-web-multidevice-v7-5-0.onrender.com/"
